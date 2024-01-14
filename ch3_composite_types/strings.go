@@ -19,6 +19,4 @@ func main() {
     fmt.Println(n == m)
     n = "hello"
     fmt.Println(n == m)
-
-
 }
