@@ -28,5 +28,13 @@ func main() {
         i, j string
     )
     fmt.Printf("e=%v, f=%v, g=%v, h=%v, i=%v, j=%v\n",e,f,g,h,i,j)
+    // := operator, a short declaration format
+    // Can only be used when you are within a function, not for declaring a variable at the package level
+    // var x = 10 and x := 10, do exactly the same
+    o := 10
+    fmt.Printf(":= operator does the type inference, type of o is %v", reflect.TypeOf(o))
+    // you can do multiple declaration
+    o, p := 20, "hello"
+    fmt.Println("o, p", o, p)
 
 }
