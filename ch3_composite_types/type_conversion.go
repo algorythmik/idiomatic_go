@@ -17,4 +17,5 @@ func main(){
     if s == ""{
         fmt.Println("s is empty")
     } else{fmt.Println("s is not empty!")}
+    // idiomatic go values comprehensibility over conciseness
 }
