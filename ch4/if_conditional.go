@@ -21,6 +21,7 @@ func main() {
 	} else {
 		fmt.Println("That is too high or reasonable")
 	}
+	// m is not defined here anymore since it out of the if scope
 	fmt.Println("m: ", m)
 
 }
